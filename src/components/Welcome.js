@@ -6,7 +6,10 @@ import React, { Component } from 'react'
 // 1 extend Component
 // 2 implement render method
 class Welcome extends Component {
+
     render(){
+        // destructuring
+        const {name, heroName} = this.props;
         return <h1>Hello from Class Component, this is {this.props.name} a.k.a {this.props.heroName}</h1>
     }
 }

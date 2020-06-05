@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import  Greet  from './components/Greet'
 import  Welcome  from './components/Welcome'
+import Message from './components/Message'
+import Counter from './components/Counter'
 
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
       <Welcome name = 'Barry' heroName = 'flash' />
       <Welcome name = 'Clark' heroName = 'super man'/>
       <Welcome/>
+      <Message/>
+      <Counter/>
     </div>
   );
 }

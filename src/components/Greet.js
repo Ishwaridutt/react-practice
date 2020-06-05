@@ -1,6 +1,9 @@
 import React from 'react'
 
 function Greet(props){
+    // destructuring
+    const {name, heroName} = props;
+
     // evaluation {}
     return (
         <div>
