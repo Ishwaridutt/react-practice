@@ -7,7 +7,7 @@ import React, { Component } from 'react'
 // 2 implement render method
 class Welcome extends Component {
     render(){
-        return <h1>Hello from Class Component</h1>
+        return <h1>Hello from Class Component, this is {this.props.name} a.k.a {this.props.heroName}</h1>
     }
 }
 
