@@ -9,28 +9,30 @@ import FunctionClick from './components/FunctionClick'
 import ClassClick from './components/ClassClick'
 import EventBind from './components/EventBind'
 import ParentComponent from './components/ParentComponent'
+import UserGreeting from './components/UserGreeting'
 
 
 function App() {
   return (
     <div className="App">
-      <ParentComponent/>
+      <UserGreeting/>
+      {/* <ParentComponent/>
       <EventBind></EventBind>
       <br></br>
       <FunctionClick/>
-      <ClassClick/>
+      <ClassClick/> */}
       {/** want to pass dynamic html content, pass it in between component tag */}
-      <Greet name = 'Barry' heroName = 'flash'><p>this is a child paragraph</p></Greet>
+      {/* <Greet name = 'Barry' heroName = 'flash'><p>this is a child paragraph</p></Greet>
       <Greet name = 'Clark' heroName = 'super man'>
         <button>Action</button>
-      </Greet>
+      </Greet> */}
       {/** properties you know for sure will be passed, pass them as an attribue */}
-      <Greet name = 'Bruce' heroName = 'batman' />
+      {/* <Greet name = 'Bruce' heroName = 'batman' />
       <Welcome name = 'Barry' heroName = 'flash' />
       <Welcome name = 'Clark' heroName = 'super man'/>
       <Welcome/>
       <Message/>
-      <Counter/>
+      <Counter/> */}
     </div>
   );
 }
